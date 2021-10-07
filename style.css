@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(230, 231, 232);
+}
+#page-title{
+    color: royalblue;
+    text-align: center;
+        font-family: 'Roboto', bold;
+}
+#page-title2 {
+    color: slateblue;
+    text-align: center;
+    font-family: 'Roboto', bold;
+}
+#clickit {
+    color: cadetblue;
+    font-family: 'Roboto', medium;
+}
+.abzac1{
+    color: rgb(72, 72, 72);
+    font-family: 'Roboto', medium;
+}
+.list {
+    color: rgb(72, 72, 72);
+    font-family: 'Roboto', light;
+}
+#page-title3{
+    color: sienna;
+    text-align: center;
+    font-family: 'Roboto', bold;
+}
+
+
