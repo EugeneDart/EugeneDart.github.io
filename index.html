@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EugeneD</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+      integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainstyles.css" />
+    <meta name="description" content="Це сайт про мене. Заходь.">
+    <meta property="og:image" content="https://EugeneDart.github.io/my_photo.jpg">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="wrapperofheader">
+            <a class="logo" href="#top"><img src="images/bananas.png"></a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#aboutme">Про мене</a></li>
+                    <li><a href="#portfolio">Портфоліо</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="maincontainer">
+            <div class="wrapper">
+                <div class="greeting">
+                    <div class="title">
+                        Привіт, мене звати Євгеній <br>і це сайт про мене.<br>
+                    </div>
+                </div>
+                <img src="images/spy3final.png" alt="spy3" class="spy3">
+            </div>
+        </div>
+    </section>
+    <section id="aboutme">
+        <h2 class="title2">
+            Про мене
+            </h2>
+            <div class="container">
+        <div class="aboutmewrapper">
+            <img src="images/spy1final.png" alt="spy1" class="spy1">
+            <p class="aboutme">
+                Дизайнер. Фотографую, обжнюю гуляти. Полюбляю спорт час від часу. Навчаюся у Львові,
+                постійно відкриваю для себе нові місця в місті, freakin’ animal lover. У вільний час дивлюся 
+                фільми або просто їм.<br>
+                <br>
+                <br>PS Обожнюю банани.<br> 
+            </p>
+        </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="portfolio">
+            <div class="portfoliowrapper">
+                <h2 class="title2">
+                    Портфоліо
+                </h2>
+                <div class="gallery" id="lightgallery">
+                    <div class="gallery--item">
+                    <a href="https://picsum.photos/id/111/800" target="_blank">
+                        <img src="https://picsum.photos/id/111/500" />
+                    </a>
+                    </div>
+                    <div class="gallery--item">
+                    <a href="https://picsum.photos/id/222/800" target="_blank">
+                        <img src="https://picsum.photos/id/222/500" />
+                    </a>
+                    </div>
+                    <div class="gallery--item">
+                    <a href="https://picsum.photos/id/33/800" target="_blank">
+                        <img src="https://picsum.photos/id/33/500" />
+                    </a>
+                    </div>
+                    <div class="gallery--item">
+                    <a href="https://picsum.photos/id/444/800" target="_blank">
+                        <img src="https://picsum.photos/id/444/500" />
+                    </a>
+                    </div>
+                    <div class="gallery--item">
+                    <a href="https://picsum.photos/id/555/800" target="_blank">
+                        <img src="https://picsum.photos/id/555/500" />
+                    </a>
+                    </div>
+                    <div class="gallery--item">
+                    <a href="https://picsum.photos/id/666/800" target="_blank">
+                        <img src="https://picsum.photos/id/666/500" />
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="contactswrapper">
+            <h2 class="title2contacts">
+                Контакти
+            </h2>
+            <div class="contacts">
+                <div class="contact">
+                    <h3 class="contact-title">
+                        Instagram:
+                    </h3>
+                    <p class="contact-text">
+                        eugened.art
+                    </p>
+                </div>
+                <div class="contact2">
+                    <h3 class="contact-title">
+                        Mail:
+                    </h3>
+                    <p class="contact-text">
+                        freshstonego@gmail.com
+                    </p>
+                </div>
+                <div class="contact3">
+                    <h3 class="contact-title">
+                        Telegram:
+                    </h3>
+                    <p class="contact-text">
+                        eugenerave
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--The End-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery'), {
+          selector: '.gallery--item a',
+        });
+      </script>
+</body>
+</html>
